@@ -163,7 +163,7 @@
     
     @media(max-width: 767px) {
         .container {
-            padding: 0px;
+            padding: 0px 5%;
         }
         .m-none {
             display: none !important;
@@ -367,11 +367,10 @@
         }
         .footer-contact>li {
             width: 90%;
-            padding: 0px 5% 5% 5%;
+            padding-bottom: 5%;
         }
         .footer-fansgroup {
             width: 90%;
-            padding: 0px 5%;
             text-align: right;
         }
     }
@@ -440,7 +439,7 @@
             width: 100%;
         }
         .restaurantintro-list li p {
-            padding: 2% 5% 6% 5%;
+            padding: 2% 0px 6% 0px;
         }
     }
     /* chef introduction */
@@ -485,6 +484,9 @@
     /* mobile chef introduction */
     
     @media(max-width:767px) {
+        .chefintro .container {
+            padding: 0%;
+        }
         .chefintro-content {
             flex-wrap: wrap;
         }
@@ -492,8 +494,8 @@
             width: 100%;
         }
         .chefintro-content-info {
-            width: 80%;
-            padding: 10% 6%;
+            width: 90%;
+            padding: 5% 5%;
         }
     }
     /* message board */
@@ -545,8 +547,8 @@
             flex-wrap: wrap;
         }
         .messageboard-list li {
-            width: 90%;
-            padding: 3% 5%;
+            width: 100%;
+            padding: 3% 0px;
         }
     }
     /* reservation */
@@ -666,12 +668,12 @@
             flex-wrap: wrap;
         }
         .reservation-content-map {
-            width: 90%;
-            padding: 0px 5%;
+            width: 100%;
         }
         .reservation-content-clientinfo {
-            width: 90%;
-            padding: 5%;
+            width: 100%;
+            padding: 0px;
+            margin-top: 5%;
         }
     }
     /* home page end */
