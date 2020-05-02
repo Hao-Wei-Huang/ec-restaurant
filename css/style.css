@@ -256,7 +256,7 @@
     
     .banner-image {
         height: 420px;
-        background: url("/image/header_desktop.png");
+        background: url("../image/header_desktop.png");
         background-position: center center;
         display: flex;
         justify-content: center;
