@@ -747,7 +747,7 @@
             width: 100%;
             margin-bottom: 30px;
         }
-        .order-nav-title h4 {
+        .order-nav-title {
             margin-bottom: 0px;
         }
         .order-nav-menu {
@@ -787,7 +787,7 @@
     
     .order-content-searchbar label {
         position: absolute;
-        top: 0px;
+        top: 1px;
         right: 0px;
     }
     
