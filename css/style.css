@@ -774,22 +774,25 @@
         position: relative;
     }
     
-    .order-content-searchbar input {
+    .order-content-searchbar input[type="text"] {
         width: calc(100% - 36px);
         font-size: 20px;
         line-height: 28px;
         color: #3D1101;
+        padding: 1px;
         padding-left: 10px;
         border: 2px solid #3D1101;
+        border-radius: 0px;
         background: #EFE9E7;
         box-sizing: border-box;
         outline: none;
     }
     
-    .order-content-searchbar a {
+    .order-content-searchbar label {
         position: absolute;
         top: 0px;
         right: 0px;
+        margin: 0px;
     }
     
     .order-content-searchbar .search-icon {
