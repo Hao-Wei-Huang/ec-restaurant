@@ -787,8 +787,8 @@
     
     .order-content-searchbar label {
         position: absolute;
-        right: 0;
-        top: 1;
+        top: 0px;
+        right: 0px;
     }
     
     .order-content-searchbar .search-icon {
