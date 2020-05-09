@@ -769,13 +769,13 @@
         justify-content: space-between;
     }
     
-    .order-content-searchbar-input-wrap {
+    .order-content-searchbar form {
         width: 65%;
         position: relative;
     }
     
     .order-content-searchbar input {
-        width: 100%;
+        width: calc(100% - 36px);
         font-size: 20px;
         line-height: 28px;
         color: #3D1101;
@@ -783,21 +783,24 @@
         border: 2px solid #3D1101;
         background: #EFE9E7;
         box-sizing: border-box;
+        outline: none;
     }
     
     .order-content-searchbar label {
         position: absolute;
-        top: 1px;
+        top: 0px;
         right: 0px;
     }
     
     .order-content-searchbar .search-icon {
         width: 36px;
-        text-align: center;
+        height: 34px;
         color: #FFFFFF;
         font-size: 24px;
-        line-height: 32px;
         background: #3D1101;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .order-content-searchbar-checkout {
@@ -1030,6 +1033,7 @@
         border-radius: 3px;
         box-sizing: border-box;
         padding-left: 30px;
+        outline: none;
     }
     
     .login-icon {
