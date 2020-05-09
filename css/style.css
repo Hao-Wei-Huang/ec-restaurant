@@ -244,7 +244,7 @@
         .navbar-header-menu li {
             background-color: rgba(0, 0, 0, 0.75);
         }
-        .jq-show-menu {
+        ul.jq-show-menu {
             max-height: 300px;
         }
     }
@@ -751,7 +751,11 @@
             margin-bottom: 0px;
         }
         .order-nav-menu {
-            display: none;
+            max-height: 0px;
+            overflow: hidden;
+            /* 摺疊展開動畫效果 */
+            transition: max-height 1s;
+            text-align: center;
         }
     }
     /* cart content */

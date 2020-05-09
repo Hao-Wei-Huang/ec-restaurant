@@ -12,6 +12,6 @@ $(document).ready(function() {
     });
     $('.m-order-nav-menu').click(function(e) {
         e.preventDefault();
-        $('.order-nav-menu').slideToggle();
+        $('.order-nav-menu').toggleClass("jq-show-menu");
     });
 });
