@@ -788,11 +788,10 @@
         outline: none;
     }
     
-    .order-content-searchbar label {
+    .order-content-searchbar a {
         position: absolute;
         top: 0px;
         right: 0px;
-        margin: 0px;
     }
     
     .order-content-searchbar .search-icon {
