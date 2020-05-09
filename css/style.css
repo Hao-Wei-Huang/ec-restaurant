@@ -769,8 +769,11 @@
         justify-content: space-between;
     }
     
-    .order-content-searchbar form {
+    .order-content-searchbar-input-wrap {
         width: 65%;
+    }
+    
+    .order-content-searchbar form {
         position: relative;
     }
     
