@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('.navbar-header-menu').toggleClass("jq-show-menu");
     });
     // order
-    $('.hearticon').click(function(e) {
+    $('.hear-ticon').click(function(e) {
         e.preventDefault();
         $(this).find('.fa-heart').toggleClass("far");
         $(this).find('.fa-heart').toggleClass("fas");

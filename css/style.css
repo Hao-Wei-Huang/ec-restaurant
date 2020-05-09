@@ -791,7 +791,7 @@
         top: 0;
     }
     
-    .order-content-searchbar .fa-search {
+    .order-content-searchbar .search-icon {
         width: 36px;
         text-align: center;
         color: #FFFFFF;
@@ -816,18 +816,18 @@
         padding: 0px 12px;
     }
     
-    .order-content-searchbar-checkout .fa-shopping-cart {
+    .order-content-searchbar-checkout .cart-icon {
         font-size: 24px;
         line-height: 29px;
     }
     
-    .order-content-searchbar-checkout .carticon a {
+    .order-content-searchbar-checkout .cart-icon-wrap a {
         position: relative;
         text-align: center;
         padding-right: 6px;
     }
     
-    .order-content-searchbar-checkout .carticon span {
+    .order-content-searchbar-checkout .cart-icon-wrap span {
         width: 14px;
         height: 14px;
         font-size: 12px;
@@ -857,7 +857,7 @@
         position: relative;
     }
     
-    .order-content-foodlist .hearticon {
+    .order-content-foodlist .heart-icon {
         font-size: 20px;
         color: #ffffff;
         position: absolute;
@@ -867,11 +867,11 @@
         transition: 0.4s;
     }
     
-    .order-content-foodlist .hearticon .fas {
+    .order-content-foodlist .heart-icon .fas {
         color: #ff3e8b;
     }
     
-    .order-content-foodlist .hearticon:hover {
+    .order-content-foodlist .heart-icon:hover {
         transform: scale(1.4);
     }
     /* ribbon start */
@@ -988,3 +988,84 @@
         }
     }
     /* order end */
+    /* register */
+    
+    .login {
+        background-color: #EFE9E7;
+        padding: 50px 0px;
+        text-align: center;
+        color: #3D1101;
+    }
+    
+    .login-subtitle {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    .login-form {
+        max-width: 270px;
+        margin: 35px auto 0px auto;
+        border-top: 3px solid #FF5E45;
+        box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+        padding: 15px;
+        text-align: left;
+    }
+    
+    .login-form-title {
+        font-size: 18px;
+        margin: 0px 0px 15px 0px;
+        text-align: center;
+    }
+    
+    .login-form-input-wrap {
+        position: relative;
+    }
+    
+    .login-form-input-wrap input[type="email"],
+    .login-form-input-wrap input[type="password"] {
+        width: 100%;
+        border: 1px solid #CCCCCC;
+        box-shadow: inset 0px 1px 0px 0px #ECECEC;
+        border-radius: 3px;
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    
+    .login-icon {
+        position: absolute;
+        top: 7.6px;
+        left: 10px;
+        color: rgba(61, 17, 0, 0.50);
+    }
+    
+    .login-form-forget {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .login-form-forget a {
+        color: #FF5E45;
+    }
+    
+    .login-form-button-group {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .login-form-button-group button {
+        width: 47%;
+        font-size: 14px;
+        color: #FFFFFF;
+        border-radius: 3px;
+        padding: 8px 0px;
+    }
+    
+    .pure-button-register {
+        background: rgba(0, 0, 0, 0.35);
+    }
+    
+    .pure-button-entry {
+        background: #F56C23;
+    }
+    /* register end */
