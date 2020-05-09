@@ -775,7 +775,7 @@
     }
     
     .order-content-searchbar input[type="text"] {
-        width: calc(100% - 36px);
+        width: calc(100% - 35px);
         font-size: 20px;
         line-height: 28px;
         color: #3D1101;
@@ -792,9 +792,6 @@
         position: absolute;
         top: 0px;
         right: 0px;
-    }
-    
-    .order-content-searchbar .search-icon {
         width: 36px;
         height: 34px;
         color: #FFFFFF;
