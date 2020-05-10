@@ -788,6 +788,7 @@
         border-radius: 0px;
         background: #EFE9E7;
         box-sizing: border-box;
+        outline: none;
         vertical-align: middle;
     }
     
