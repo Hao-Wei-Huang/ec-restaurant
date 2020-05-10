@@ -774,6 +774,7 @@
     }
     
     .order-content-searchbar form {
+        width: 65%;
         position: relative;
     }
     
@@ -789,7 +790,6 @@
         background: #EFE9E7;
         box-sizing: border-box;
         outline: none;
-        vertical-align: middle;
     }
     
     .order-content-searchbar .search-icon {
