@@ -774,7 +774,6 @@
     }
     
     .order-content-searchbar form {
-        width: 65%;
         position: relative;
     }
     
@@ -790,6 +789,7 @@
         background: #EFE9E7;
         box-sizing: border-box;
         outline: none;
+        -webkit-rtl-ordering: logical;
     }
     
     .order-content-searchbar .search-icon {
