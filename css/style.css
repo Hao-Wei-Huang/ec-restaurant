@@ -789,7 +789,8 @@
         background: #EFE9E7;
         box-sizing: border-box;
         outline: none;
-        -webkit-rtl-ordering: logical;
+        display: inline-block;
+        vertical-align: middle;
     }
     
     .order-content-searchbar .search-icon {
