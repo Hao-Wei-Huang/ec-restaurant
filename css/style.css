@@ -306,7 +306,7 @@
         justify-content: space-between;
     }
     
-    .footer-contact>li {
+    .footer-contact div {
         width: 47%;
         font-size: 24px;
         font-weight: bold;
@@ -321,14 +321,16 @@
     
     .footer-contact ul {
         margin-top: 16px;
+        list-style-type: disc;
+        list-style-position: inside;
     }
     
     .footer-contact ul a {
-        display: block;
         font-size: 16px;
         font-weight: normal;
         color: #3D1101;
-        line-height: 20px;
+        line-height: 24px;
+        margin-left: -12px;
     }
     
     .footer-fansgroup-info {
@@ -339,6 +341,10 @@
     
     .footer-fansgroup-info li {
         margin-left: 12px;
+    }
+    
+    .footer-fansgroup-info a {
+        display: block;
     }
     
     .googleicon {
@@ -365,7 +371,7 @@
             flex-wrap: wrap;
             width: 100%;
         }
-        .footer-contact>li {
+        .footer-contact>div {
             width: 90%;
             padding-bottom: 5%;
         }
@@ -769,11 +775,8 @@
         justify-content: space-between;
     }
     
-    .order-content-searchbar-input-wrap {
-        width: 65%;
-    }
-    
     .order-content-searchbar form {
+        width: 65%;
         position: relative;
     }
     
@@ -781,7 +784,7 @@
         display: block;
         width: calc(100% - 35px);
         font-size: 20px;
-        line-height: 28px;
+        height: 34px;
         color: #3D1101;
         padding: 1px;
         padding-left: 10px;
